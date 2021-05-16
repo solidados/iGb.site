@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <div class="contacts__top">
+        <div class="container top__box">
+            <ul class="header">
+                <li class="menu__list">
+                    <a href="index.html"><img src="img/icons/ico_menu_logo_blu.png" alt="logo"
+                            style="max-height: 50px;"></a></li>
+                <li class="menu__list">
+                    <a href="contacts.html"><img src="img/icons/ico_Vector.png" alt="img_contacts"
+                            style="padding-top: 9px;"></a></li>
+            </ul>
+        </div>
+
+        <div class="contacts__banner">
+            <div class="container contacts__items">
+                <h2 class="contacts__heading">Contact Us</h2>
+                <p class="contacts__text">If you are interested in our project or have some ideas to share with us,
+                    please use this page for comunication in return. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contacts__main">
+        <div class="container contacts__two_blocks_middle">
+            <div class="parts contacts__how_to__left">
+
+                <img src="img/img_contact-us.png" class="contacts__img_mini" alt="picture">
+
+                <h4 class="heading__contacts_mini">Address</h4>
+                <p class="text text__address">Russian Federation<br>
+                    125167, Moscow<br>
+                    Leningradskiy prospekt, 39, stroyenie 79
+                </p>
+
+                <h4 class="heading__contacts_mini">Phone</h4>
+                <ul class="text list__phones">
+                    <li class="contact__phone">+79871234567</li>
+                    <li class="contact__phone">+79871234586</li>
+                </ul>
+
+                <h4 class="heading__contacts_mini">Online Service</h4>
+                <ul class="text list__click">
+                    <li class="contact__web">www.geekbrains..ru</li>
+                    <li class="contact__mail">email@email.go</li>
+                </ul>
+            </div>
+
+            <div class="parts contacts__how_to__right">
+                <form id="contact-form" name="contact-form" action="#" method="POST">
+                    <div class="row">
+                        <h4 class="heading__contacts_mini_right">Send us message</h4>
+                        <p class="text w-responsive">Do&nbsp;you have any questions? Please do&nbsp;not hesitate to&nbsp;contact&nbsp;us directly. Our team will come back to&nbsp;you within a&nbsp;matter of&nbsp;hours to&nbsp;help you.</p>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="input__field-name">Your name</label><br>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </div>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="input__field-name">Your email</label><br>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+                        <div class="md-form">
+                            <label for="message" class="input__field-name">Your message</label><br>
+                            <textarea id="message" name="message" rows="8" class="form-control md-textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="text-center text-md-left">
+                        <button class="button-submit" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container contacts__map">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608.0485747837793!2d37.53651742445729!3d55.79643186564683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b549c0a8c181bd%3A0xa4656f9e457cf441!2z0JvQtdC90LjQvdCz0YDQsNC00YHQutC40Lkg0L_RgC3Rgi4sIDM5INGB0YLRgNC-0LXQvdC40LUgNzksINCc0L7RgdC60LLQsCwgMTI1MTY3!5e0!3m2!1sru!2sru!4v1621105270112!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+        <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A13fb5bc9283fe2653611d20a09bb36bae24c11c26cb7078b42678181d3575eff&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+
+    <!-- Footer for all pages -->
+    <div class="footer">
+        <div class="container footer__box">
+            <div class="footer__top">
+                <div class="footer__content">
+                    <h3 class="heading foot__heading">Are you interested in? <br>We may offer more...</h3>
+                    <p class="text foot__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+                        quisquam accusantium magni quae repellat maiores?</p>
+                </div>
+                <a class="footer__button" href="#">Let&nbsp;Us&nbsp;Discuss</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container footer__box_down">
+            <div class="footer__bottom">
+                <ul class="footer__info">
+                    <li class="footer__list">Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li class="footer__list">+7 (120) 345-67-89</li>
+                    <li class="footer__list">email@email.go</li>
+                </ul>
+                <div class="footer__copy">
+                    <p class="text text__copy">&copy; 2021 All Rights Reserved.</p>
+                    <p>
+                        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
