@@ -279,21 +279,25 @@ body {
 .contact__phone:first-child::before {
     content: url(img/icons/ic_phone_24px.png);
     margin-right: 16px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .contact__phone:last-child::before {
     content: url(img/icons/ic_phone_24px.png);
     margin-right: 16px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .contact__web:first-child::before {
     content: url(img/icons/ic_language_24px.png);
     margin-right: 16px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .contact__mail:last-child::before {
     content: url(img/icons/ic_email_24px.png);
     margin-right: 16px;
+    vertical-align: -webkit-baseline-middle;
 }
 
 .contacts__how_to__right {
